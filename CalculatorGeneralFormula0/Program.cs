@@ -14,7 +14,7 @@ namespace CalculatorGeneralFormula0
             try
             {
                 //Inputs
-                Console.WriteLine("This program will calculate the two outputs of the general/quadratic formula.");
+                Console.WriteLine("This program will calculate the two solutions of the general/quadratic formula.");
                 Console.WriteLine("Make sure your equation is in the correct form.");
                 Console.WriteLine("The form is ax^2 + bx + c = 0");
                 Console.WriteLine();
