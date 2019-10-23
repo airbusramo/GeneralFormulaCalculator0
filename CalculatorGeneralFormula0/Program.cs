@@ -132,6 +132,7 @@ namespace CalculatorGeneralFormula0
                         break;
                     default:
                         Console.WriteLine("Invaild Input");
+                        Restart();
                         break;
                 }
             }
