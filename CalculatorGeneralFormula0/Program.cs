@@ -81,33 +81,7 @@ namespace CalculatorGeneralFormula0
         {
             Console.WriteLine("Math Error");
             Console.WriteLine(mathErrorMessage);
-            Console.WriteLine();
-            Console.WriteLine("Restart? y/n:");
-            try
-            {
-                char restartInput = Convert.ToChar(Console.ReadLine());
-
-                switch (char.ToLower(restartInput))
-                {
-                    case 'y':
-                        Main();
-                        break;
-                    case 'n':
-                        End();
-                        break;
-                    default:
-                        Console.WriteLine("Invaild Input");
-                        MathError(mathErrorMessage);
-                        break;
-                }
-            }
-            
-            catch (System.FormatException)
-            {
-                Console.WriteLine("Invaild Input");
-                MathError(mathErrorMessage);
-            }
-
+            Restart();
         }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Globalization", "CA1304:Specify CultureInfo", Justification = "Same locale issue.")]
